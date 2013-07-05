@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require_tree .
+
+
+$(".alert").alert();
+window.setTimeout(function() { $(".alert").alert('close'); }, 3000);
